@@ -1,7 +1,6 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fdeef4;
+    background-color: #F8F4F6;
 }
 .container {
     width: 350px;
@@ -35,6 +34,11 @@ input {
     border-radius: 4px;
 }
 
+input:focus {
+    border-color: #c94c84;
+    outline: none;
+}
+
 
 button {
     width: 100%;
@@ -64,3 +68,17 @@ button:hover {
     margin-top: 10px;
     font-weight: bold;
 } 
+
+.result .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.result .badge {
+    padding: 6px 10px;
+    background-color: #fdeef4; 
+    border-radius: 20px;
+    font-weight: 600;
+}
